@@ -1,0 +1,27 @@
+{
+  "name": "mini-mern",
+  "version": "1.0.0",
+  "description": "Mini mern app (todo-list)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisonam/mini-mern.git"
+  },
+  "author": "Chrisonam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisonam/mini-mern/issues"
+  },
+  "homepage": "https://github.com/chrisonam/mini-mern#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
