@@ -47,7 +47,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/mern-todo", {
 
    // find one todo
 
-   app.put('/todos/complete/:id', async (req,res) => {
+   app.get('/todos/complete/:id', async (req,res) => {
     const todo = await Todo.findById(req.params.id);
 
     todo.complete = ! todo.complete;
